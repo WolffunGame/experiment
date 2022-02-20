@@ -20,9 +20,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/optimizely/go-sdk/pkg/config/datafileprojectconfig"
-	"github.com/optimizely/go-sdk/pkg/logging"
-	"github.com/optimizely/go-sdk/pkg/notification"
+	"github.com/WolffunGame/experiment/pkg/config/datafileprojectconfig"
+	"github.com/WolffunGame/experiment/pkg/logging"
+	"github.com/WolffunGame/experiment/pkg/notification"
 
 	"github.com/stretchr/testify/assert"
 )

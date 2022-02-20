@@ -17,8 +17,8 @@
 package optimizely
 
 import (
-	"github.com/optimizely/go-sdk/pkg/client"
-	"github.com/optimizely/go-sdk/pkg/entities"
+	"github.com/WolffunGame/experiment/pkg/client"
+	"github.com/WolffunGame/experiment/pkg/entities"
 )
 
 // Client returns an OptimizelyClient instantiated with the given key and options

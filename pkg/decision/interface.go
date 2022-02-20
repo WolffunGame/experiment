@@ -18,9 +18,9 @@
 package decision
 
 import (
-	"github.com/optimizely/go-sdk/pkg/decide"
-	"github.com/optimizely/go-sdk/pkg/entities"
-	"github.com/optimizely/go-sdk/pkg/notification"
+	"github.com/WolffunGame/experiment/pkg/decide"
+	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunGame/experiment/pkg/notification"
 )
 
 // Service interface is used to make a decision for a given feature or experiment

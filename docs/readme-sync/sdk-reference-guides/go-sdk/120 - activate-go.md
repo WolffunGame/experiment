@@ -80,8 +80,8 @@ The example code below shows how to add and remove a decision listener.
 import (
 	"fmt"
 
-	"github.com/optimizely/go-sdk/pkg/client"
-	"github.com/optimizely/go-sdk/pkg/notification"
+	"github.com/WolffunGame/experiment/pkg/client"
+	"github.com/WolffunGame/experiment/pkg/notification"
 )
 
 // Callback for decision notification
@@ -119,4 +119,4 @@ See [Implement impressions](doc:implement-impressions) for more information abou
 > Conversion events can only be attributed to experiments with previously tracked impressions. Impressions are tracked by Activate, not by Get Variation. As a general rule, Optimizely impressions are required for experiment results and not only for billing.
 
 ### Source files
-The language/platform source files containing the implementation for Go is [Go](https://github.com/optimizely/go-sdk/blob/master/pkg/client/client.go#L46).
+The language/platform source files containing the implementation for Go is [Go](https://github.com/WolffunGame/experiment/blob/master/pkg/client/client.go#L46).

@@ -47,4 +47,4 @@ variation, success := overrideStore.GetVariation(overrideKey)
 [Remove Variation](doc:remove-forced-variation-go)
 
 ### Source files
-The language/platform source files containing the implementation for Go is [experiment_override_service.go](https://github.com/optimizely/go-sdk/blob/v1.0.0-beta7/pkg/decision/experiment_override_service.go).
+The language/platform source files containing the implementation for Go is [experiment_override_service.go](https://github.com/WolffunGame/experiment/blob/v1.0.0-beta7/pkg/decision/experiment_override_service.go).

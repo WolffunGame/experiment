@@ -39,4 +39,4 @@ isEnabled, err := optlyClient.GetEnabledFeatures(user)
 ```
 
 ### Source files
-The language/platform source files containing the implementation for Go is [Go](https://github.com/optimizely/go-sdk/blob/go-alpha/optimizely/client/client.go#L102).
+The language/platform source files containing the implementation for Go is [Go](https://github.com/WolffunGame/experiment/blob/go-alpha/optimizely/client/client.go#L102).

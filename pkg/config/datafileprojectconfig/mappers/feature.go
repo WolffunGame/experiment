@@ -18,8 +18,8 @@
 package mappers
 
 import (
-	datafileEntities "github.com/optimizely/go-sdk/pkg/config/datafileprojectconfig/entities"
-	"github.com/optimizely/go-sdk/pkg/entities"
+	datafileEntities "github.com/WolffunGame/experiment/pkg/config/datafileprojectconfig/entities"
+	"github.com/WolffunGame/experiment/pkg/entities"
 )
 
 // MapFeatures maps the raw datafile feature flag entities to SDK Feature entities

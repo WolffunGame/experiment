@@ -19,7 +19,7 @@ This example shows how to:
 
 ```go
 import (
-	optly "github.com/optimizely/go-sdk"
+	optly "github.com/WolffunGame/experiment"
 )
 
 attributes := map[string]interface{}{

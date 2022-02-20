@@ -22,7 +22,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/optimizely/go-sdk/pkg/logging"
+	"github.com/WolffunGame/experiment/pkg/logging"
 )
 
 // Manager is a generic interface for managing notifications of a particular type

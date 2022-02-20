@@ -8,7 +8,7 @@ updatedAt: "2019-08-21T21:13:45.319Z"
 ---
 To initialize the **OptimizelyClient** you will need either the SDK key or hard-coded JSON datafile.
 ```go
-import "github.com/optimizely/go-sdk/pkg/client"
+import "github.com/WolffunGame/experiment/pkg/client"
 
 optimizelyFactory := &client.OptimizelyFactory{
             SDKKey: "[SDK_KEY_HERE]",         

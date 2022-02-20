@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/optimizely/go-sdk/pkg/entities"
-	"github.com/optimizely/go-sdk/pkg/metrics"
+	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunGame/experiment/pkg/metrics"
 
 	"github.com/stretchr/testify/assert"
 )

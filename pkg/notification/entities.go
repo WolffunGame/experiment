@@ -18,7 +18,7 @@
 package notification
 
 import (
-	"github.com/optimizely/go-sdk/pkg/entities"
+	"github.com/WolffunGame/experiment/pkg/entities"
 )
 
 // Type is the type of notification

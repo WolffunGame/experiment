@@ -6,7 +6,7 @@ hidden: true
 createdAt: "2019-10-29T23:36:28.978Z"
 updatedAt: "2020-01-16T20:42:04.941Z"
 ---
-The [Optimizely Full Stack Go SDK](https://github.com/optimizely/go-sdk) batches impression and conversion events into a single payload before sending it to Optimizely. This is achieved through an SDK component called the event processor.
+The [Optimizely Full Stack Go SDK](https://github.com/WolffunGame/experiment) batches impression and conversion events into a single payload before sending it to Optimizely. This is achieved through an SDK component called the event processor.
 
 Event batching has the advantage of reducing the number of outbound requests to Optimizely depending on how you define, configure, and use the event processor. It means less network traffic for the same number of Impression and conversion events tracked.
 
@@ -24,7 +24,7 @@ An event consisting of the batched payload is sent as soon as the batch size rea
 ### Basic example
 
 ```go
-import optly "github.com/optimizely/go-sdk"
+import optly "github.com/WolffunGame/experiment"
 
 // the default client will have a BatchEventProcessor with the default options
 optlyClient, err := optly.Client("SDK_KEY_HERE")
@@ -38,9 +38,9 @@ To customize the event processor, you can use the client factory methods.
 import (
   "time"
   
-	"github.com/optimizely/go-sdk/pkg/client"
-	"github.com/optimizely/go-sdk/pkg/event"
-  "github.com/optimizely/go-sdk/pkg/utils"
+	"github.com/WolffunGame/experiment/pkg/client"
+	"github.com/WolffunGame/experiment/pkg/event"
+  "github.com/WolffunGame/experiment/pkg/utils"
 )
 
 optimizelyFactory := &client.OptimizelyFactory{
@@ -86,8 +86,8 @@ The example code below shows how to add and remove a LogEvent notification liste
 import (
 	"fmt"
 
-	"github.com/optimizely/go-sdk/pkg/client"
-	"github.com/optimizely/go-sdk/pkg/event"
+	"github.com/WolffunGame/experiment/pkg/client"
+	"github.com/WolffunGame/experiment/pkg/event"
 )
 
 // Callback for log event notification
@@ -112,12 +112,12 @@ import (
 ```
 ###  LogEvent
 
-LogEvent object gets created using [factory](https://github.com/optimizely/go-sdk/blob/8a8fb7e959f2597d26d2a0dc3a6a072dcbc15f0f/pkg/event/factory.go#L46). It represents the batch of impression and conversion events we send to the Optimizely backend.
+LogEvent object gets created using [factory](https://github.com/WolffunGame/experiment/blob/8a8fb7e959f2597d26d2a0dc3a6a072dcbc15f0f/pkg/event/factory.go#L46). It represents the batch of impression and conversion events we send to the Optimizely backend.
 
 | Object                                                                                                                                  | Type          | Description                                                                                                                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------|---------------|------------------------------------------------------------------------------------------------------------------------------|
 | **EndPoint** <br/>*Required (non null)*                                                                                                 | String        | URL to dispatch log event to.                                                                                                |
-| **[Event](https://github.com/optimizely/go-sdk/blob/8a8fb7e959f2597d26d2a0dc3a6a072dcbc15f0f/pkg/event/events.go#L70)** <br/>*Required* | [event.Batch] | It contains all the information regarding every event which is batched. including list of visitors which contains UserEvent. |
+| **[Event](https://github.com/WolffunGame/experiment/blob/8a8fb7e959f2597d26d2a0dc3a6a072dcbc15f0f/pkg/event/events.go#L70)** <br/>*Required* | [event.Batch] | It contains all the information regarding every event which is batched. including list of visitors which contains UserEvent. |
 
 ### Close Optimizely on application exit
 

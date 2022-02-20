@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/optimizely/go-sdk/pkg/logging"
+	"github.com/WolffunGame/experiment/pkg/logging"
 
-	pkgReasons "github.com/optimizely/go-sdk/pkg/decision/reasons"
-	"github.com/optimizely/go-sdk/pkg/entities"
+	pkgReasons "github.com/WolffunGame/experiment/pkg/decision/reasons"
+	"github.com/WolffunGame/experiment/pkg/entities"
 
 	"github.com/pkg/errors"
 )

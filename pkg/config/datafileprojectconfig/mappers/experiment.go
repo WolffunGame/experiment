@@ -18,8 +18,8 @@
 package mappers
 
 import (
-	datafileEntities "github.com/optimizely/go-sdk/pkg/config/datafileprojectconfig/entities"
-	"github.com/optimizely/go-sdk/pkg/entities"
+	datafileEntities "github.com/WolffunGame/experiment/pkg/config/datafileprojectconfig/entities"
+	"github.com/WolffunGame/experiment/pkg/entities"
 )
 
 // MapExperiments maps the raw experiments entities from the datafile to SDK Experiment entities and also returns a map of experiment key to experiment ID

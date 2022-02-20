@@ -21,8 +21,8 @@ import (
 	"errors"
 	"reflect"
 
+	"github.com/WolffunGame/experiment/pkg/entities"
 	jsoniter "github.com/json-iterator/go"
-	"github.com/optimizely/go-sdk/pkg/entities"
 )
 
 var errEmptyTree = errors.New("empty tree")

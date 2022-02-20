@@ -23,9 +23,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/optimizely/go-sdk/pkg/decide"
-	e "github.com/optimizely/go-sdk/pkg/entities"
-	"github.com/optimizely/go-sdk/pkg/logging"
+	"github.com/WolffunGame/experiment/pkg/decide"
+	e "github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunGame/experiment/pkg/logging"
 )
 
 type MockLogger struct {

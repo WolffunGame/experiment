@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/optimizely/go-sdk"
-	"github.com/optimizely/go-sdk/pkg/client"
-	"github.com/optimizely/go-sdk/pkg/config"
-	"github.com/optimizely/go-sdk/pkg/event"
-	"github.com/optimizely/go-sdk/pkg/logging"
+	"github.com/WolffunGame/experiment"
+	"github.com/WolffunGame/experiment/pkg/client"
+	"github.com/WolffunGame/experiment/pkg/config"
+	"github.com/WolffunGame/experiment/pkg/event"
+	"github.com/WolffunGame/experiment/pkg/logging"
 )
 
 func main() {
@@ -44,7 +44,8 @@ func main() {
 	/************* StaticClient ********************/
 
 	optimizelyFactory := &client.OptimizelyFactory{
-		SDKKey: sdkKey,
+		Datafile: []byte("DATAFILE_JSON_STRING_HERE"),
+		SDKKey:   sdkKey,
 	}
 
 	optimizelyClient, err = optimizelyFactory.StaticClient()

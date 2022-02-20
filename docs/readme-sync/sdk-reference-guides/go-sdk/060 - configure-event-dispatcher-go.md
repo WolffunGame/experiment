@@ -12,7 +12,7 @@ The Go SDK has an out-of-the-box asynchronous dispatcher. We recommend customizi
 
 The examples show that to customize the event dispatcher, initialize the Optimizely client (or manager) with an event dispatcher instance.
 ```go
-import "github.com/optimizely/go-sdk/pkg/event"
+import "github.com/WolffunGame/experiment/pkg/event"
 
 type CustomEventDispatcher struct {
 }
@@ -32,8 +32,8 @@ func (d *CustomEventDispatcher) DispatchEvent(event event.LogEvent) (bool, error
 
 ```go
 import (
-	"github.com/optimizely/go-sdk/pkg/client"
-	"github.com/optimizely/go-sdk/pkg/event"
+	"github.com/WolffunGame/experiment/pkg/client"
+	"github.com/WolffunGame/experiment/pkg/event"
 )
 
 optimizelyFactory := &client.OptimizelyFactory{
@@ -54,4 +54,4 @@ The event dispatcher should implement a `DispatchEvent` function, which takes in
 >
 > If you are using a custom event dispatcher, do not modify the event payload returned from Optimizely. Modifying this payload will alter your results.
 
-By default, our Go SDK uses a [basic asynchronous event dispatcher](https://github.com/optimizely/go-sdk/blob/master/pkg/event/dispatcher.go).
+By default, our Go SDK uses a [basic asynchronous event dispatcher](https://github.com/WolffunGame/experiment/blob/master/pkg/event/dispatcher.go).

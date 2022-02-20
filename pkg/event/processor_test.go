@@ -27,8 +27,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/optimizely/go-sdk/pkg/logging"
-	"github.com/optimizely/go-sdk/pkg/utils"
+	"github.com/WolffunGame/experiment/pkg/logging"
+	"github.com/WolffunGame/experiment/pkg/utils"
 )
 
 type CountingDispatcher struct {
@@ -496,7 +496,7 @@ func (l *NoOpLogger) SetLogLevel(level logging.LogLevel) {
 /**
 goos: darwin
 goarch: amd64
-pkg: github.com/optimizely/go-sdk/pkg/event
+pkg: github.com/WolffunGame/experiment/pkg/event
 BenchmarkProcessor/InMemory/BatchSize-10/QueueSize-10-8         	 2531830	       456 ns/op
 BenchmarkProcessor/InMemory/BatchSize-20/QueueSize-10-8         	 2966862	       398 ns/op
 BenchmarkProcessor/InMemory/BatchSize-30/QueueSize-10-8         	 3224689	       372 ns/op

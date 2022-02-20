@@ -20,8 +20,8 @@ package decision
 import (
 	"testing"
 
-	"github.com/optimizely/go-sdk/pkg/entities"
-	"github.com/optimizely/go-sdk/pkg/notification"
+	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunGame/experiment/pkg/notification"
 
 	"github.com/stretchr/testify/assert"
 )

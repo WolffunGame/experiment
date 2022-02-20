@@ -18,8 +18,8 @@
 package mappers
 
 import (
-	datafileEntities "github.com/optimizely/go-sdk/pkg/config/datafileprojectconfig/entities"
-	"github.com/optimizely/go-sdk/pkg/entities"
+	datafileEntities "github.com/WolffunGame/experiment/pkg/config/datafileprojectconfig/entities"
+	"github.com/WolffunGame/experiment/pkg/entities"
 )
 
 // MapGroups maps the raw group entity from the datafile to an SDK Group entity

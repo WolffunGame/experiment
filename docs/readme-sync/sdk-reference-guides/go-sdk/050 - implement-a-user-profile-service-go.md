@@ -18,7 +18,7 @@ Refer to the code samples below to provide your own User Profile Service. It sho
   * save: Takes a user profile and persists it.
 
 ```go
-import ( "github.com/optimizely/go-sdk/pkg/decision" )
+import ( "github.com/WolffunGame/experiment/pkg/decision" )
 
 // CustomUserProfileService is custom implementation of the UserProfileService interface
 type CustomUserProfileService struct {

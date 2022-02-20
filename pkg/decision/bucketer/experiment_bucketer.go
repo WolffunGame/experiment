@@ -18,9 +18,9 @@
 package bucketer
 
 import (
-	"github.com/optimizely/go-sdk/pkg/decision/reasons"
-	"github.com/optimizely/go-sdk/pkg/entities"
-	"github.com/optimizely/go-sdk/pkg/logging"
+	"github.com/WolffunGame/experiment/pkg/decision/reasons"
+	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunGame/experiment/pkg/logging"
 )
 
 // ExperimentBucketer is used to bucket the user into a particular entity in the experiment's traffic alloc range

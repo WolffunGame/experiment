@@ -8,9 +8,9 @@ import (
 	"os"
 	"path"
 
-	"github.com/optimizely/go-sdk/pkg/client"
-	"github.com/optimizely/go-sdk/pkg/decision"
-	"github.com/optimizely/go-sdk/pkg/entities"
+	"github.com/WolffunGame/experiment/pkg/client"
+	"github.com/WolffunGame/experiment/pkg/decision"
+	"github.com/WolffunGame/experiment/pkg/entities"
 
 	"github.com/pkg/profile"
 )

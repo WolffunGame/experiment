@@ -111,8 +111,8 @@ The example code below shows how to add and remove a decision listener.
 import (
 	"fmt"
 
-	"github.com/optimizely/go-sdk/pkg/client"
-	"github.com/optimizely/go-sdk/pkg/notification"
+	"github.com/WolffunGame/experiment/pkg/client"
+	"github.com/WolffunGame/experiment/pkg/notification"
 )
 
 // Callback for decision notification
@@ -138,4 +138,4 @@ import (
 None
 
 ### Source files
-The language/platform source files containing the implementation for Go is [Go](https://github.com/optimizely/go-sdk/blob/master/pkg/client/client.go#L160).
+The language/platform source files containing the implementation for Go is [Go](https://github.com/WolffunGame/experiment/blob/master/pkg/client/client.go#L160).

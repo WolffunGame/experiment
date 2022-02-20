@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/optimizely/go-sdk/pkg/decide"
-	"github.com/optimizely/go-sdk/pkg/decision/evaluator"
-	pkgReasons "github.com/optimizely/go-sdk/pkg/decision/reasons"
-	"github.com/optimizely/go-sdk/pkg/entities"
-	"github.com/optimizely/go-sdk/pkg/logging"
+	"github.com/WolffunGame/experiment/pkg/decide"
+	"github.com/WolffunGame/experiment/pkg/decision/evaluator"
+	pkgReasons "github.com/WolffunGame/experiment/pkg/decision/reasons"
+	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunGame/experiment/pkg/logging"
 )
 
 // RolloutService makes a feature decision for a given feature rollout

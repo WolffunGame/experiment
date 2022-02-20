@@ -18,8 +18,8 @@
 package decision
 
 import (
-	"github.com/optimizely/go-sdk/pkg/entities"
-	"github.com/optimizely/go-sdk/pkg/notification"
+	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunGame/experiment/pkg/notification"
 )
 
 // FlagNotification constructs default flag notification

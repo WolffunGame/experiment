@@ -19,8 +19,8 @@ package mappers
 import (
 	"testing"
 
-	datafileConfig "github.com/optimizely/go-sdk/pkg/config/datafileprojectconfig/entities"
-	"github.com/optimizely/go-sdk/pkg/entities"
+	datafileConfig "github.com/WolffunGame/experiment/pkg/config/datafileprojectconfig/entities"
+	"github.com/WolffunGame/experiment/pkg/entities"
 	"github.com/stretchr/testify/assert"
 )
 

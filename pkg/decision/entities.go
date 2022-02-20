@@ -18,9 +18,9 @@
 package decision
 
 import (
-	"github.com/optimizely/go-sdk/pkg/config"
-	"github.com/optimizely/go-sdk/pkg/decision/reasons"
-	"github.com/optimizely/go-sdk/pkg/entities"
+	"github.com/WolffunGame/experiment/pkg/config"
+	"github.com/WolffunGame/experiment/pkg/decision/reasons"
+	"github.com/WolffunGame/experiment/pkg/entities"
 )
 
 // ExperimentDecisionContext contains the information needed to be able to make a decision for a given experiment

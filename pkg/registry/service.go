@@ -20,7 +20,7 @@ package registry
 import (
 	"sync"
 
-	"github.com/optimizely/go-sdk/pkg/notification"
+	"github.com/WolffunGame/experiment/pkg/notification"
 )
 
 var notificationCenterCache = make(map[string]notification.Center)

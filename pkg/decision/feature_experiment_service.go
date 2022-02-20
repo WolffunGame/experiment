@@ -20,9 +20,9 @@ package decision
 import (
 	"fmt"
 
-	"github.com/optimizely/go-sdk/pkg/decide"
-	"github.com/optimizely/go-sdk/pkg/entities"
-	"github.com/optimizely/go-sdk/pkg/logging"
+	"github.com/WolffunGame/experiment/pkg/decide"
+	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunGame/experiment/pkg/logging"
 )
 
 // FeatureExperimentService helps evaluate feature test associated with the feature

@@ -21,9 +21,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/optimizely/go-sdk/pkg/config/datafileprojectconfig/mappers"
-	"github.com/optimizely/go-sdk/pkg/entities"
-	"github.com/optimizely/go-sdk/pkg/logging"
+	"github.com/WolffunGame/experiment/pkg/config/datafileprojectconfig/mappers"
+	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunGame/experiment/pkg/logging"
 )
 
 var datafileVersions = map[string]struct{}{

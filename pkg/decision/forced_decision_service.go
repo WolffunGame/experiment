@@ -21,9 +21,9 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/optimizely/go-sdk/pkg/config"
-	"github.com/optimizely/go-sdk/pkg/decide"
-	"github.com/optimizely/go-sdk/pkg/entities"
+	"github.com/WolffunGame/experiment/pkg/config"
+	"github.com/WolffunGame/experiment/pkg/decide"
+	"github.com/WolffunGame/experiment/pkg/entities"
 )
 
 // OptimizelyDecisionContext defines Decision Context

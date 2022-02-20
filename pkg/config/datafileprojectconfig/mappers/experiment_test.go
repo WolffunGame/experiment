@@ -19,9 +19,9 @@ package mappers
 import (
 	"testing"
 
+	datafileEntities "github.com/WolffunGame/experiment/pkg/config/datafileprojectconfig/entities"
+	"github.com/WolffunGame/experiment/pkg/entities"
 	jsoniter "github.com/json-iterator/go"
-	datafileEntities "github.com/optimizely/go-sdk/pkg/config/datafileprojectconfig/entities"
-	"github.com/optimizely/go-sdk/pkg/entities"
 	"github.com/stretchr/testify/assert"
 )
 

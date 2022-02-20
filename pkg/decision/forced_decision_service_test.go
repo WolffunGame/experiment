@@ -24,8 +24,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/optimizely/go-sdk/pkg/config"
-	"github.com/optimizely/go-sdk/pkg/decide"
+	"github.com/WolffunGame/experiment/pkg/config"
+	"github.com/WolffunGame/experiment/pkg/decide"
 	"github.com/stretchr/testify/suite"
 )
 

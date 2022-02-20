@@ -24,12 +24,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/optimizely/go-sdk/pkg/config"
-	"github.com/optimizely/go-sdk/pkg/decide"
-	"github.com/optimizely/go-sdk/pkg/decision"
-	"github.com/optimizely/go-sdk/pkg/event"
-	"github.com/optimizely/go-sdk/pkg/metrics"
-	"github.com/optimizely/go-sdk/pkg/utils"
+	"github.com/WolffunGame/experiment/pkg/config"
+	"github.com/WolffunGame/experiment/pkg/decide"
+	"github.com/WolffunGame/experiment/pkg/decision"
+	"github.com/WolffunGame/experiment/pkg/event"
+	"github.com/WolffunGame/experiment/pkg/metrics"
+	"github.com/WolffunGame/experiment/pkg/utils"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

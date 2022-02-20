@@ -21,9 +21,9 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/optimizely/go-sdk/pkg/decide"
-	pkgDecision "github.com/optimizely/go-sdk/pkg/decision"
-	"github.com/optimizely/go-sdk/pkg/entities"
+	"github.com/WolffunGame/experiment/pkg/decide"
+	pkgDecision "github.com/WolffunGame/experiment/pkg/decision"
+	"github.com/WolffunGame/experiment/pkg/entities"
 )
 
 // OptimizelyUserContext defines user contexts that the SDK will use to make decisions for.

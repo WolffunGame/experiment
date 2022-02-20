@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/optimizely/go-sdk/pkg/entities"
-	"github.com/optimizely/go-sdk/pkg/logging"
+	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunGame/experiment/pkg/logging"
 
 	"github.com/twmb/murmur3"
 )

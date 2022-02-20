@@ -18,7 +18,7 @@
 package mappers
 
 import (
-	"github.com/optimizely/go-sdk/pkg/entities"
+	"github.com/WolffunGame/experiment/pkg/entities"
 )
 
 // MapFlagVariations all variations for each flag

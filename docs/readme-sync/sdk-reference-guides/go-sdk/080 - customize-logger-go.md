@@ -13,7 +13,7 @@ The default logger in the Go SDK logs to STDOUT. If you want to disable or custo
 ### Custom logger implementation in the SDK
 
 ```go
-import "github.com/optimizely/go-sdk/pkg/logging"
+import "github.com/WolffunGame/experiment/pkg/logging"
 
 
 type CustomLogger struct {
@@ -41,7 +41,7 @@ logging.SetLogger(customLogger)
 You can also change the default log level from INFO to any of the other log levels.
 
 ```go
-import "github.com/optimizely/go-sdk/pkg/logging"
+import "github.com/WolffunGame/experiment/pkg/logging"
 
 // Set log level to Debug
 logging.SetLogLevel(logging.LogLevelDebug)

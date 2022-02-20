@@ -1,6 +1,6 @@
 # Optimizely Go SDK
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/optimizely/go-sdk)](https://goreportcard.com/report/github.com/optimizely/go-sdk)
+[![Go Report Card](https://goreportcard.com/badge/github.com/WolffunGame/experiment)](https://goreportcard.com/report/github.com/WolffunGame/experiment)
 [![Coverage Status](https://coveralls.io/repos/github/optimizely/go-sdk/badge.svg?branch=master)](https://coveralls.io/github/optimizely/go-sdk?branch=master)
 
 ## Installation
@@ -8,13 +8,13 @@
 ### Install from github:
 
 ```$sh
-go get github.com/optimizely/go-sdk
+go get github.com/WolffunGame/experiment
 ```
 
 ### Install from source:
 ```$sh
-go get github.com/optimizely/go-sdk
-cd $GOPATH/src/github.com/optimizely/go-sdk
+go get github.com/WolffunGame/experiment
+cd $GOPATH/src/github.com/WolffunGame/experiment
 go install
 ```
 
@@ -29,23 +29,23 @@ module mymodule
 go 1.12
 
 require (
-	github.com/optimizely/go-sdk v1.0.0-rc1
+	github.com/WolffunGame/experiment v1.0.0-rc1
 )
 ```
 
 If you are already using `go.mod` in your application you can run the following:
 
 ```
-go mod edit -require github.com/optimizely/go-sdk@v1.0.0-rc1
+go mod edit -require github.com/WolffunGame/experiment@v1.0.0-rc1
 ```
 
 NOTE:
 ```$sh
-go get github.com/optimizely/go-sdk/...
+go get github.com/WolffunGame/experiment/...
 ```
 or
 ```$sh
-go get github.com/optimizely/go-sdk/pkg
+go get github.com/WolffunGame/experiment/pkg
 ```
 will install it as a package to pkg directory, rather than src directory. It could be useful for future development and vendoring.
 
@@ -55,8 +55,8 @@ will install it as a package to pkg directory, rather than src directory. It cou
 To start using the SDK, create an instance using our factory method:
 
 ```
-import optly "github.com/optimizely/go-sdk"
-import "github.com/optimizely/go-sdk/client"
+import optly "github.com/WolffunGame/experiment"
+import "github.com/WolffunGame/experiment/client"
 
 // Simple one-line initialization with the SDK key
 client, err := optly.Client("SDK_KEY")
@@ -73,7 +73,7 @@ client, err = optimizelyFactory.Client()
 ### Feature Rollouts
 ```
 import (
-  optly "github.com/optimizely/go-sdk"
+  optly "github.com/WolffunGame/experiment"
 )
 
 // instantiate a client

@@ -1,12 +1,12 @@
 package bucketer
 
 import (
-	"github.com/optimizely/go-sdk/pkg/logging"
+	"github.com/WolffunGame/experiment/pkg/logging"
 	"testing"
 
-	"github.com/optimizely/go-sdk/pkg/decision/reasons"
+	"github.com/WolffunGame/experiment/pkg/decision/reasons"
 
-	"github.com/optimizely/go-sdk/pkg/entities"
+	"github.com/WolffunGame/experiment/pkg/entities"
 	"github.com/stretchr/testify/assert"
 )
 

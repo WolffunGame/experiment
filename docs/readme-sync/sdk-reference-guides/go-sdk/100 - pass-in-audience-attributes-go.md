@@ -9,7 +9,7 @@ updatedAt: "2019-10-29T23:40:24.261Z"
 You can pass strings, numbers, Booleans, and null as user attribute values. Attributes are part of the UserContext object. The example below shows how to pass in attributes.
 
 ```go
-import "github.com/optimizely/go-sdk/pkg/entities"
+import "github.com/WolffunGame/experiment/pkg/entities"
 
 attributes := map[string]interface{}{
         "DEVICE": "iPhone",

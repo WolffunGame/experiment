@@ -19,7 +19,7 @@ package utils
 
 import (
 	"context"
-	"github.com/optimizely/go-sdk/pkg/logging"
+	"github.com/WolffunGame/experiment/pkg/logging"
 	"sync"
 )
 

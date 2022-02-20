@@ -20,7 +20,7 @@ package entities
 import (
 	"fmt"
 
-	"github.com/optimizely/go-sdk/pkg/utils"
+	"github.com/WolffunGame/experiment/pkg/utils"
 )
 
 const bucketingIDAttributeName = "$opt_bucketing_id"

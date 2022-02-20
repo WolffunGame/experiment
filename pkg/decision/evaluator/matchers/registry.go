@@ -20,8 +20,8 @@ package matchers
 import (
 	"sync"
 
-	"github.com/optimizely/go-sdk/pkg/entities"
-	"github.com/optimizely/go-sdk/pkg/logging"
+	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunGame/experiment/pkg/logging"
 )
 
 // Matcher type is used to evaluate audience conditional primitives
