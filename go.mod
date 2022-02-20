@@ -1,4 +1,4 @@
-module github.com/optimizely/go-sdk
+module github.com/WolffunGame/experiment
 
 go 1.12
 
