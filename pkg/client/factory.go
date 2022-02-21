@@ -237,7 +237,7 @@ func WithMetricsRegistry(metricsRegistry metrics.Registry) OptionFunc {
 }
 
 // StaticClient returns a client initialized with a static project config.
-func (f *OptimizelyFactory) StaticClient() (optlyClient *OptimizelyClient, err error) {
+func (f *OptimizelyFactory) StaticClient(clientOptions ...OptionFunc) (optlyClient *OptimizelyClient, err error) {
 
 	staticManager := config.NewStaticProjectConfigManagerWithOptions(f.SDKKey, config.WithInitialDatafile(f.Datafile), config.WithDatafileAccessToken(f.DatafileAccessToken))
 
@@ -245,10 +245,9 @@ func (f *OptimizelyFactory) StaticClient() (optlyClient *OptimizelyClient, err e
 		return nil, errors.New("unable to initiate config manager")
 	}
 
-	optlyClient, err = f.Client(
-		WithConfigManager(staticManager),
-		WithBatchEventProcessor(event.DefaultBatchSize, event.DefaultEventQueueSize, event.DefaultEventFlushInterval),
-	)
+	clientOptions = append(clientOptions, WithConfigManager(staticManager), WithBatchEventProcessor(event.DefaultBatchSize, event.DefaultEventQueueSize, event.DefaultEventFlushInterval))
+
+	optlyClient, err = f.Client(clientOptions...)
 
 	return optlyClient, err
 }
