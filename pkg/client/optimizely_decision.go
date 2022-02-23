@@ -18,6 +18,7 @@
 package client
 
 import (
+	"github.com/WolffunGame/experiment/pkg/entities"
 	"github.com/WolffunGame/experiment/pkg/optimizelyjson"
 )
 
@@ -30,10 +31,11 @@ type OptimizelyDecision struct {
 	FlagKey      string                         `json:"flagKey"`
 	UserContext  OptimizelyUserContext          `json:"userContext"`
 	Reasons      []string                       `json:"reasons"`
+	Experiment   entities.Experiment            `json:"experiment"`
 }
 
 // NewOptimizelyDecision creates and returns a new instance of OptimizelyDecision
-func NewOptimizelyDecision(variationKey, ruleKey, flagKey string, enabled bool, variables *optimizelyjson.OptimizelyJSON, userContext OptimizelyUserContext, reasons []string) OptimizelyDecision {
+func NewOptimizelyDecision(variationKey, ruleKey, flagKey string, enabled bool, variables *optimizelyjson.OptimizelyJSON, userContext OptimizelyUserContext, reasons []string, experiment entities.Experiment) OptimizelyDecision {
 	return OptimizelyDecision{
 		VariationKey: variationKey,
 		Enabled:      enabled,
@@ -42,6 +44,7 @@ func NewOptimizelyDecision(variationKey, ruleKey, flagKey string, enabled bool, 
 		FlagKey:      flagKey,
 		UserContext:  userContext,
 		Reasons:      reasons,
+		Experiment:   experiment,
 	}
 }
 

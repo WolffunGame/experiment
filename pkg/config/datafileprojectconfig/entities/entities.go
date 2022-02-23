@@ -43,6 +43,7 @@ type Experiment struct {
 	AudienceIds        []string            `json:"audienceIds"`
 	ForcedVariations   map[string]string   `json:"forcedVariations"`
 	AudienceConditions interface{}         `json:"audienceConditions"`
+	Revision           int                 `json:"revision"`
 }
 
 // Group represents an Group object from the Optimizely datafile

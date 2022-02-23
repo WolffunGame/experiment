@@ -28,7 +28,6 @@ func MapExperiments(rawExperiments []datafileEntities.Experiment, experimentGrou
 	experimentIDMap = make(map[string]entities.Experiment)
 	experimentKeyMap = make(map[string]string)
 	for _, rawExperiment := range rawExperiments {
-
 		experiment := mapExperiment(rawExperiment)
 		experiment.GroupID = experimentGroupMap[experiment.ID]
 		experimentIDMap[experiment.ID] = experiment
@@ -85,6 +84,7 @@ func mapExperiment(rawExperiment datafileEntities.Experiment) entities.Experimen
 		ID:                    rawExperiment.ID,
 		LayerID:               rawExperiment.LayerID,
 		Key:                   rawExperiment.Key,
+		Revision:              rawExperiment.Revision,
 		Variations:            make(map[string]entities.Variation),
 		VariationKeyToIDMap:   make(map[string]string),
 		TrafficAllocation:     make([]entities.Range, len(rawExperiment.TrafficAllocation)),
