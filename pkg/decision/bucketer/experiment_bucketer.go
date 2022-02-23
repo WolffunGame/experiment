@@ -21,6 +21,7 @@ import (
 	"github.com/WolffunGame/experiment/pkg/decision/reasons"
 	"github.com/WolffunGame/experiment/pkg/entities"
 	"github.com/WolffunGame/experiment/pkg/logging"
+	"strconv"
 )
 
 // ExperimentBucketer is used to bucket the user into a particular entity in the experiment's traffic alloc range
@@ -51,7 +52,7 @@ func (b MurmurhashExperimentBucketer) Bucket(bucketingID string, experiment enti
 		}
 	}
 
-	bucketKey := bucketingID + experiment.ID
+	bucketKey := bucketingID + experiment.ID + strconv.Itoa(experiment.Revision)
 	bucketedVariationID := b.bucketer.BucketToEntity(bucketKey, experiment.TrafficAllocation)
 	if bucketedVariationID == "" {
 		// User is not bucketed into a variation in the experiment, return nil variation
