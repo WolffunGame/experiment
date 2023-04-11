@@ -1,4 +1,4 @@
-module github.com/WolffunGame/experiment
+module github.com/WolffunService/experiment
 
 go 1.12
 
