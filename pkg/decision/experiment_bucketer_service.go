@@ -20,12 +20,12 @@ package decision
 import (
 	"fmt"
 
-	"github.com/WolffunGame/experiment/pkg/decide"
-	"github.com/WolffunGame/experiment/pkg/decision/bucketer"
-	"github.com/WolffunGame/experiment/pkg/decision/evaluator"
-	pkgReasons "github.com/WolffunGame/experiment/pkg/decision/reasons"
-	"github.com/WolffunGame/experiment/pkg/entities"
-	"github.com/WolffunGame/experiment/pkg/logging"
+	"github.com/WolffunService/experiment/pkg/decide"
+	"github.com/WolffunService/experiment/pkg/decision/bucketer"
+	"github.com/WolffunService/experiment/pkg/decision/evaluator"
+	pkgReasons "github.com/WolffunService/experiment/pkg/decision/reasons"
+	"github.com/WolffunService/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/logging"
 )
 
 // ExperimentBucketerService makes a decision using the experiment bucketer

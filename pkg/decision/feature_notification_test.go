@@ -20,8 +20,8 @@ package decision
 import (
 	"testing"
 
-	"github.com/WolffunGame/experiment/pkg/entities"
-	"github.com/WolffunGame/experiment/pkg/notification"
+	"github.com/WolffunService/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/notification"
 
 	"github.com/stretchr/testify/assert"
 )

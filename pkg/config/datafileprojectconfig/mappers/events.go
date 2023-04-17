@@ -18,8 +18,8 @@
 package mappers
 
 import (
-	datafileEntities "github.com/WolffunGame/experiment/pkg/config/datafileprojectconfig/entities"
-	"github.com/WolffunGame/experiment/pkg/entities"
+	datafileEntities "github.com/WolffunService/experiment/pkg/config/datafileprojectconfig/entities"
+	"github.com/WolffunService/experiment/pkg/entities"
 )
 
 // MapEvents maps the raw datafile event entities to SDK Event entities

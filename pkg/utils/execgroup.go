@@ -19,7 +19,7 @@ package utils
 
 import (
 	"context"
-	"github.com/WolffunGame/experiment/pkg/logging"
+	"github.com/WolffunService/experiment/pkg/logging"
 	"sync"
 )
 

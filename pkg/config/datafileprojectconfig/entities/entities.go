@@ -17,7 +17,7 @@
 // Package entities has entity definitions
 package entities
 
-import "github.com/WolffunGame/experiment/pkg/entities"
+import "github.com/WolffunService/experiment/pkg/entities"
 
 // Audience represents an Audience object from the Optimizely datafile
 type Audience struct {

@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/WolffunGame/experiment/pkg/decide"
-	pkgReasons "github.com/WolffunGame/experiment/pkg/decision/reasons"
-	"github.com/WolffunGame/experiment/pkg/entities"
-	"github.com/WolffunGame/experiment/pkg/logging"
+	"github.com/WolffunService/experiment/pkg/decide"
+	pkgReasons "github.com/WolffunService/experiment/pkg/decision/reasons"
+	"github.com/WolffunService/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/logging"
 )
 
 // ExperimentOverrideKey represents the user ID and experiment associated with an override variation

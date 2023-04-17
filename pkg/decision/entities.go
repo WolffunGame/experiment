@@ -18,9 +18,9 @@
 package decision
 
 import (
-	"github.com/WolffunGame/experiment/pkg/config"
-	"github.com/WolffunGame/experiment/pkg/decision/reasons"
-	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/config"
+	"github.com/WolffunService/experiment/pkg/decision/reasons"
+	"github.com/WolffunService/experiment/pkg/entities"
 )
 
 // ExperimentDecisionContext contains the information needed to be able to make a decision for a given experiment

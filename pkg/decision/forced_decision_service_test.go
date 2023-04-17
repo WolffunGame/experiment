@@ -24,8 +24,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/WolffunGame/experiment/pkg/config"
-	"github.com/WolffunGame/experiment/pkg/decide"
+	"github.com/WolffunService/experiment/pkg/config"
+	"github.com/WolffunService/experiment/pkg/decide"
 	"github.com/stretchr/testify/suite"
 )
 

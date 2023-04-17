@@ -22,14 +22,14 @@ import (
 	"errors"
 	"time"
 
-	"github.com/WolffunGame/experiment/pkg/config"
-	"github.com/WolffunGame/experiment/pkg/decide"
-	"github.com/WolffunGame/experiment/pkg/decision"
-	"github.com/WolffunGame/experiment/pkg/event"
-	"github.com/WolffunGame/experiment/pkg/logging"
-	"github.com/WolffunGame/experiment/pkg/metrics"
-	"github.com/WolffunGame/experiment/pkg/registry"
-	"github.com/WolffunGame/experiment/pkg/utils"
+	"github.com/WolffunService/experiment/pkg/config"
+	"github.com/WolffunService/experiment/pkg/decide"
+	"github.com/WolffunService/experiment/pkg/decision"
+	"github.com/WolffunService/experiment/pkg/event"
+	"github.com/WolffunService/experiment/pkg/logging"
+	"github.com/WolffunService/experiment/pkg/metrics"
+	"github.com/WolffunService/experiment/pkg/registry"
+	"github.com/WolffunService/experiment/pkg/utils"
 )
 
 // OptimizelyFactory is used to customize and construct an instance of the OptimizelyClient.

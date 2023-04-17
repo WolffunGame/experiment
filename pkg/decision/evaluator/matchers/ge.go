@@ -20,10 +20,10 @@ package matchers
 import (
 	"fmt"
 
-	"github.com/WolffunGame/experiment/pkg/logging"
+	"github.com/WolffunService/experiment/pkg/logging"
 
-	"github.com/WolffunGame/experiment/pkg/decision/evaluator/matchers/utils"
-	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/decision/evaluator/matchers/utils"
+	"github.com/WolffunService/experiment/pkg/entities"
 )
 
 // GeMatcher matches against the "ge" match type

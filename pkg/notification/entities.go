@@ -18,7 +18,7 @@
 package notification
 
 import (
-	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/entities"
 )
 
 // Type is the type of notification

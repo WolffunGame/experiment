@@ -20,9 +20,9 @@ package decision
 import (
 	"testing"
 
-	"github.com/WolffunGame/experiment/pkg/decide"
-	"github.com/WolffunGame/experiment/pkg/decision/reasons"
-	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/decide"
+	"github.com/WolffunService/experiment/pkg/decision/reasons"
+	"github.com/WolffunService/experiment/pkg/entities"
 	"github.com/stretchr/testify/suite"
 )
 

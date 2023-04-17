@@ -24,11 +24,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/WolffunGame/experiment/pkg/config/datafileprojectconfig"
-	"github.com/WolffunGame/experiment/pkg/logging"
-	"github.com/WolffunGame/experiment/pkg/notification"
-	"github.com/WolffunGame/experiment/pkg/registry"
-	"github.com/WolffunGame/experiment/pkg/utils"
+	"github.com/WolffunService/experiment/pkg/config/datafileprojectconfig"
+	"github.com/WolffunService/experiment/pkg/logging"
+	"github.com/WolffunService/experiment/pkg/notification"
+	"github.com/WolffunService/experiment/pkg/registry"
+	"github.com/WolffunService/experiment/pkg/utils"
 
 	"github.com/pkg/errors"
 )

@@ -20,11 +20,11 @@ package decision
 import (
 	"fmt"
 
-	"github.com/WolffunGame/experiment/pkg/decide"
-	"github.com/WolffunGame/experiment/pkg/entities"
-	"github.com/WolffunGame/experiment/pkg/logging"
-	"github.com/WolffunGame/experiment/pkg/notification"
-	"github.com/WolffunGame/experiment/pkg/registry"
+	"github.com/WolffunService/experiment/pkg/decide"
+	"github.com/WolffunService/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/logging"
+	"github.com/WolffunService/experiment/pkg/notification"
+	"github.com/WolffunService/experiment/pkg/registry"
 )
 
 // CompositeService is the entry-point into the decision service. It provides out of the box decision making for Features and Experiments.

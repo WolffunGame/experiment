@@ -19,8 +19,8 @@ package mappers
 import (
 	"testing"
 
-	datafileConfig "github.com/WolffunGame/experiment/pkg/config/datafileprojectconfig/entities"
-	"github.com/WolffunGame/experiment/pkg/entities"
+	datafileConfig "github.com/WolffunService/experiment/pkg/config/datafileprojectconfig/entities"
+	"github.com/WolffunService/experiment/pkg/entities"
 	"github.com/stretchr/testify/assert"
 )
 

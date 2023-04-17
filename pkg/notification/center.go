@@ -19,7 +19,7 @@ package notification
 
 import (
 	"fmt"
-	"github.com/WolffunGame/experiment/pkg/logging"
+	"github.com/WolffunService/experiment/pkg/logging"
 )
 
 // Center handles all notification listeners. It keeps track of the Manager for each type of notification.

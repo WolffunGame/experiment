@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/WolffunGame/experiment/pkg/entities"
-	"github.com/WolffunGame/experiment/pkg/logging"
+	"github.com/WolffunService/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/logging"
 )
 
 // SubstringMatcher matches against the "substring" match type

@@ -20,8 +20,8 @@ package matchers
 import (
 	"sync"
 
-	"github.com/WolffunGame/experiment/pkg/entities"
-	"github.com/WolffunGame/experiment/pkg/logging"
+	"github.com/WolffunService/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/logging"
 )
 
 // Matcher type is used to evaluate audience conditional primitives

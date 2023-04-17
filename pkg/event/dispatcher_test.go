@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/WolffunGame/experiment/pkg/entities"
-	"github.com/WolffunGame/experiment/pkg/metrics"
+	"github.com/WolffunService/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/metrics"
 
 	"github.com/stretchr/testify/assert"
 )

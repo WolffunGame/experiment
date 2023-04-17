@@ -17,8 +17,8 @@
 package optimizely
 
 import (
-	"github.com/WolffunGame/experiment/pkg/client"
-	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/client"
+	"github.com/WolffunService/experiment/pkg/entities"
 )
 
 // Client returns an OptimizelyClient instantiated with the given key and options

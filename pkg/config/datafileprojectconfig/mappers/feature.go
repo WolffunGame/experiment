@@ -18,8 +18,8 @@
 package mappers
 
 import (
-	datafileEntities "github.com/WolffunGame/experiment/pkg/config/datafileprojectconfig/entities"
-	"github.com/WolffunGame/experiment/pkg/entities"
+	datafileEntities "github.com/WolffunService/experiment/pkg/config/datafileprojectconfig/entities"
+	"github.com/WolffunService/experiment/pkg/entities"
 )
 
 // MapFeatures maps the raw datafile feature flag entities to SDK Feature entities

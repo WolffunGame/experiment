@@ -24,10 +24,10 @@ import (
 
 	guuid "github.com/google/uuid"
 
-	"github.com/WolffunGame/experiment/pkg/config"
-	decisionPkg "github.com/WolffunGame/experiment/pkg/decision"
-	"github.com/WolffunGame/experiment/pkg/entities"
-	"github.com/WolffunGame/experiment/pkg/utils"
+	"github.com/WolffunService/experiment/pkg/config"
+	decisionPkg "github.com/WolffunService/experiment/pkg/decision"
+	"github.com/WolffunService/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/utils"
 )
 
 const impressionKey string = "campaign_activated"

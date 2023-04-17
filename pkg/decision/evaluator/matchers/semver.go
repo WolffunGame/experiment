@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/WolffunGame/experiment/pkg/logging"
+	"github.com/WolffunService/experiment/pkg/logging"
 
-	pkgReasons "github.com/WolffunGame/experiment/pkg/decision/reasons"
-	"github.com/WolffunGame/experiment/pkg/entities"
+	pkgReasons "github.com/WolffunService/experiment/pkg/decision/reasons"
+	"github.com/WolffunService/experiment/pkg/entities"
 
 	"github.com/pkg/errors"
 )

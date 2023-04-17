@@ -20,7 +20,7 @@ package registry
 import (
 	"sync"
 
-	"github.com/WolffunGame/experiment/pkg/notification"
+	"github.com/WolffunService/experiment/pkg/notification"
 )
 
 var notificationCenterCache = make(map[string]notification.Center)

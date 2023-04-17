@@ -21,9 +21,9 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/WolffunGame/experiment/pkg/decide"
-	pkgDecision "github.com/WolffunGame/experiment/pkg/decision"
-	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/decide"
+	pkgDecision "github.com/WolffunService/experiment/pkg/decision"
+	"github.com/WolffunService/experiment/pkg/entities"
 )
 
 // OptimizelyUserContext defines user contexts that the SDK will use to make decisions for.

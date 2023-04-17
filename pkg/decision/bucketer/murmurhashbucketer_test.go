@@ -2,10 +2,10 @@ package bucketer
 
 import (
 	"fmt"
-	"github.com/WolffunGame/experiment/pkg/logging"
+	"github.com/WolffunService/experiment/pkg/logging"
 	"testing"
 
-	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/entities"
 	"github.com/stretchr/testify/assert"
 )
 

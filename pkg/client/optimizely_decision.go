@@ -18,8 +18,8 @@
 package client
 
 import (
-	"github.com/WolffunGame/experiment/pkg/entities"
-	"github.com/WolffunGame/experiment/pkg/optimizelyjson"
+	"github.com/WolffunService/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/optimizelyjson"
 )
 
 // OptimizelyDecision defines the decision returned by decide api.

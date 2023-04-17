@@ -8,9 +8,9 @@ import (
 	"os"
 	"path"
 
-	"github.com/WolffunGame/experiment/pkg/client"
-	"github.com/WolffunGame/experiment/pkg/decision"
-	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/client"
+	"github.com/WolffunService/experiment/pkg/decision"
+	"github.com/WolffunService/experiment/pkg/entities"
 
 	"github.com/pkg/profile"
 )
