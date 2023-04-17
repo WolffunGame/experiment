@@ -35,6 +35,7 @@ import (
 	"github.com/WolffunService/experiment/pkg/notification"
 	"github.com/WolffunService/experiment/pkg/optimizelyjson"
 	"github.com/WolffunService/experiment/pkg/utils"
+	"github.com/hashicorp/go-multierror"
 )
 
 // OptimizelyClient is the entry point to the Optimizely SDK
