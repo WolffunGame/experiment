@@ -4,6 +4,8 @@ go 1.12
 
 require (
 	github.com/google/uuid v1.1.1
+	github.com/hashicorp/errwrap v1.1.0 // indirect
+	github.com/hashicorp/go-multierror v1.1.0
 	github.com/json-iterator/go v1.1.12
 	github.com/pkg/errors v0.8.1
 	github.com/pkg/profile v1.3.0
