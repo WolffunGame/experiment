@@ -18,7 +18,7 @@
 package datafileprojectconfig
 
 import (
-	"github.com/WolffunGame/experiment/pkg/config/datafileprojectconfig/entities"
+	"github.com/WolffunService/experiment/pkg/config/datafileprojectconfig/entities"
 
 	"github.com/json-iterator/go"
 )

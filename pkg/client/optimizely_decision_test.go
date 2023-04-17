@@ -20,7 +20,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/WolffunGame/experiment/pkg/optimizelyjson"
+	"github.com/WolffunService/experiment/pkg/optimizelyjson"
 
 	"github.com/stretchr/testify/suite"
 )

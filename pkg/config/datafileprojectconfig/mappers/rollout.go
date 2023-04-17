@@ -18,8 +18,8 @@
 package mappers
 
 import (
-	datafileEntities "github.com/WolffunGame/experiment/pkg/config/datafileprojectconfig/entities"
-	"github.com/WolffunGame/experiment/pkg/entities"
+	datafileEntities "github.com/WolffunService/experiment/pkg/config/datafileprojectconfig/entities"
+	"github.com/WolffunService/experiment/pkg/entities"
 )
 
 // MapRollouts maps the raw datafile rollout entities to SDK Rollout entities

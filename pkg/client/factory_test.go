@@ -24,12 +24,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/WolffunGame/experiment/pkg/config"
-	"github.com/WolffunGame/experiment/pkg/decide"
-	"github.com/WolffunGame/experiment/pkg/decision"
-	"github.com/WolffunGame/experiment/pkg/event"
-	"github.com/WolffunGame/experiment/pkg/metrics"
-	"github.com/WolffunGame/experiment/pkg/utils"
+	"github.com/WolffunService/experiment/pkg/config"
+	"github.com/WolffunService/experiment/pkg/decide"
+	"github.com/WolffunService/experiment/pkg/decision"
+	"github.com/WolffunService/experiment/pkg/event"
+	"github.com/WolffunService/experiment/pkg/metrics"
+	"github.com/WolffunService/experiment/pkg/utils"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

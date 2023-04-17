@@ -22,12 +22,12 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/WolffunGame/experiment/pkg/decide"
-	"github.com/WolffunGame/experiment/pkg/decision"
-	"github.com/WolffunGame/experiment/pkg/entities"
-	"github.com/WolffunGame/experiment/pkg/event"
-	"github.com/WolffunGame/experiment/pkg/notification"
-	"github.com/WolffunGame/experiment/pkg/optimizelyjson"
+	"github.com/WolffunService/experiment/pkg/decide"
+	"github.com/WolffunService/experiment/pkg/decision"
+	"github.com/WolffunService/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/event"
+	"github.com/WolffunService/experiment/pkg/notification"
+	"github.com/WolffunService/experiment/pkg/optimizelyjson"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"
 )

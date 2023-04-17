@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/WolffunGame/experiment/pkg/config/datafileprojectconfig/entities"
+	"github.com/WolffunService/experiment/pkg/config/datafileprojectconfig/entities"
 	"github.com/stretchr/testify/assert"
 )
 

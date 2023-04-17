@@ -18,8 +18,8 @@
 package mappers
 
 import (
-	datafileEntities "github.com/WolffunGame/experiment/pkg/config/datafileprojectconfig/entities"
-	"github.com/WolffunGame/experiment/pkg/entities"
+	datafileEntities "github.com/WolffunService/experiment/pkg/config/datafileprojectconfig/entities"
+	"github.com/WolffunService/experiment/pkg/entities"
 )
 
 // MapAudiences maps the raw datafile audience entities to SDK Audience entities

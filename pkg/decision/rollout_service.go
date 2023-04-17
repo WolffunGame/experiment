@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/WolffunGame/experiment/pkg/decide"
-	"github.com/WolffunGame/experiment/pkg/decision/evaluator"
-	pkgReasons "github.com/WolffunGame/experiment/pkg/decision/reasons"
-	"github.com/WolffunGame/experiment/pkg/entities"
-	"github.com/WolffunGame/experiment/pkg/logging"
+	"github.com/WolffunService/experiment/pkg/decide"
+	"github.com/WolffunService/experiment/pkg/decision/evaluator"
+	pkgReasons "github.com/WolffunService/experiment/pkg/decision/reasons"
+	"github.com/WolffunService/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/logging"
 )
 
 // RolloutService makes a feature decision for a given feature rollout

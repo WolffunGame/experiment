@@ -20,7 +20,7 @@ package event
 import (
 	"sync"
 
-	"github.com/WolffunGame/experiment/pkg/logging"
+	"github.com/WolffunService/experiment/pkg/logging"
 )
 
 // Queue represents a queue

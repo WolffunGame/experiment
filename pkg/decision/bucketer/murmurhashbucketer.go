@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/WolffunGame/experiment/pkg/entities"
-	"github.com/WolffunGame/experiment/pkg/logging"
+	"github.com/WolffunService/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/logging"
 
 	"github.com/twmb/murmur3"
 )

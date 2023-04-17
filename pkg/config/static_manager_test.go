@@ -20,9 +20,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/WolffunGame/experiment/pkg/config/datafileprojectconfig"
-	"github.com/WolffunGame/experiment/pkg/logging"
-	"github.com/WolffunGame/experiment/pkg/notification"
+	"github.com/WolffunService/experiment/pkg/config/datafileprojectconfig"
+	"github.com/WolffunService/experiment/pkg/logging"
+	"github.com/WolffunService/experiment/pkg/notification"
 
 	"github.com/stretchr/testify/assert"
 )

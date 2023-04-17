@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/WolffunGame/experiment/pkg/config/datafileprojectconfig/mappers"
-	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/config/datafileprojectconfig/mappers"
+	"github.com/WolffunService/experiment/pkg/entities"
 )
 
 // OptimizelyConfig is a snapshot of the experiments and features in the project config

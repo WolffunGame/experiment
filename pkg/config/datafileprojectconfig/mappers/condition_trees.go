@@ -21,7 +21,7 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/entities"
 	jsoniter "github.com/json-iterator/go"
 )
 

@@ -21,9 +21,9 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/WolffunGame/experiment/pkg/decide"
-	"github.com/WolffunGame/experiment/pkg/entities"
-	"github.com/WolffunGame/experiment/pkg/notification"
+	"github.com/WolffunService/experiment/pkg/decide"
+	"github.com/WolffunService/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/notification"
 )
 
 type CompositeServiceFeatureTestSuite struct {

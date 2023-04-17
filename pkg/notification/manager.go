@@ -22,7 +22,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/WolffunGame/experiment/pkg/logging"
+	"github.com/WolffunService/experiment/pkg/logging"
 )
 
 // Manager is a generic interface for managing notifications of a particular type

@@ -21,9 +21,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/WolffunGame/experiment/pkg/config/datafileprojectconfig/mappers"
-	"github.com/WolffunGame/experiment/pkg/entities"
-	"github.com/WolffunGame/experiment/pkg/logging"
+	"github.com/WolffunService/experiment/pkg/config/datafileprojectconfig/mappers"
+	"github.com/WolffunService/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/logging"
 )
 
 var datafileVersions = map[string]struct{}{

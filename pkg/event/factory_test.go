@@ -25,9 +25,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/WolffunGame/experiment/pkg/config"
-	"github.com/WolffunGame/experiment/pkg/decision"
-	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/config"
+	"github.com/WolffunService/experiment/pkg/decision"
+	"github.com/WolffunService/experiment/pkg/entities"
 )
 
 var testExperiment = entities.Experiment{

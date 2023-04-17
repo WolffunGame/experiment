@@ -26,10 +26,10 @@ import (
 
 	"golang.org/x/sync/semaphore"
 
-	"github.com/WolffunGame/experiment/pkg/logging"
-	"github.com/WolffunGame/experiment/pkg/metrics"
-	"github.com/WolffunGame/experiment/pkg/notification"
-	"github.com/WolffunGame/experiment/pkg/registry"
+	"github.com/WolffunService/experiment/pkg/logging"
+	"github.com/WolffunService/experiment/pkg/metrics"
+	"github.com/WolffunService/experiment/pkg/notification"
+	"github.com/WolffunService/experiment/pkg/registry"
 )
 
 // Processor processes events

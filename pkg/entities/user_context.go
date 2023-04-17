@@ -20,7 +20,7 @@ package entities
 import (
 	"fmt"
 
-	"github.com/WolffunGame/experiment/pkg/utils"
+	"github.com/WolffunService/experiment/pkg/utils"
 )
 
 const bucketingIDAttributeName = "$opt_bucketing_id"

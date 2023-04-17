@@ -22,9 +22,9 @@
 package decision
 
 import (
-	"github.com/WolffunGame/experiment/pkg/config"
-	"github.com/WolffunGame/experiment/pkg/decide"
-	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/config"
+	"github.com/WolffunService/experiment/pkg/decide"
+	"github.com/WolffunService/experiment/pkg/entities"
 	"github.com/stretchr/testify/mock"
 )
 

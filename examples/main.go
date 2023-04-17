@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/WolffunGame/experiment"
-	"github.com/WolffunGame/experiment/pkg/client"
-	"github.com/WolffunGame/experiment/pkg/config"
-	"github.com/WolffunGame/experiment/pkg/event"
-	"github.com/WolffunGame/experiment/pkg/logging"
+	"github.com/WolffunService/experiment"
+	"github.com/WolffunService/experiment/pkg/client"
+	"github.com/WolffunService/experiment/pkg/config"
+	"github.com/WolffunService/experiment/pkg/event"
+	"github.com/WolffunService/experiment/pkg/logging"
 )
 
 func main() {

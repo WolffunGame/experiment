@@ -18,8 +18,8 @@
 package matchers
 
 import (
-	"github.com/WolffunGame/experiment/pkg/entities"
-	"github.com/WolffunGame/experiment/pkg/logging"
+	"github.com/WolffunService/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/logging"
 )
 
 // ExistsMatcher matches against the "exists" match type

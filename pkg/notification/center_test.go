@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/entities"
 	"github.com/stretchr/testify/mock"
 )
 

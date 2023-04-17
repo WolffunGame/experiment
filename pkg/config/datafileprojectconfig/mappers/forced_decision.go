@@ -18,7 +18,7 @@
 package mappers
 
 import (
-	"github.com/WolffunGame/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/entities"
 )
 
 // MapFlagVariations all variations for each flag

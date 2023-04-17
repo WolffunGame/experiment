@@ -20,9 +20,9 @@ package decision
 import (
 	"fmt"
 
-	"github.com/WolffunGame/experiment/pkg/decide"
-	"github.com/WolffunGame/experiment/pkg/entities"
-	"github.com/WolffunGame/experiment/pkg/logging"
+	"github.com/WolffunService/experiment/pkg/decide"
+	"github.com/WolffunService/experiment/pkg/entities"
+	"github.com/WolffunService/experiment/pkg/logging"
 )
 
 // CESOptionFunc is used to assign optional configuration options
